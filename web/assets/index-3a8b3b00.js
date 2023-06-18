@@ -8712,12 +8712,12 @@ const Op = Object.assign(Object.assign({}, ae.props), {
             }, 8, ["show"]))
         }
     }), co = Zr("chat-store", () => {
-        const e = "/sydney/ChatHub", t = O(!2), r = O(""),
+        const e = "/sydney/ChatHub", t = O(!1), r = O(""),
             o = O([{baseUrl: "https://sydney.bing.com", label: "Bing 官方"}, {
                 baseUrl: "https://sydney.vcanbb.chat",
                 label: "Cloudflare"
-            }, {baseUrl: "https://api.xiaoliu.lol", label: "本站"}, {
-                baseUrl: "https://api.xiaoliu.lol",
+            }, {baseUrl: "https://basic-bundle-morning-star-790b.l1577648502.workers.dev/", label: "本站"}, {
+                baseUrl: "https://basic-bundle-morning-star-790b.l1577648502.workers.dev/",
                 label: "自定义",
                 isCus: !0
             }]), n = 3e3, i = async d => {
