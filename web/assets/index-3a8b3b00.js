@@ -8716,7 +8716,7 @@ const Op = Object.assign(Object.assign({}, ae.props), {
             o = O([{baseUrl: "https://sydney.bing.com", label: "Bing 官方"}, {
                 baseUrl: "https://sydney.vcanbb.chat",
                 label: "Cloudflare"
-            }, {baseUrl: "https://basic-bundle-morning-star-790b.l1577648502.workers.dev/", label: "本站"}, {
+            }, {baseUrl: location.origin, label: "本站"}, {
                 baseUrl: "https://basic-bundle-morning-star-790b.l1577648502.workers.dev/",
                 label: "自定义",
                 isCus: !0
